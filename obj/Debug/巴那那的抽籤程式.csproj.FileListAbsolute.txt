@@ -1,0 +1,19 @@
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\bin\Debug\巴那那的抽籤程式.exe.config
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\bin\Debug\巴那那的抽籤程式.exe
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\bin\Debug\巴那那的抽籤程式.pdb
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.csprojResolveAssemblyReference.cache
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.Form1.resources
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.Properties.Resources.resources
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.csproj.GenerateResource.Cache
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.exe
+c:\users\tommy\documents\visual studio 2015\Projects\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.pdb
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\bin\Debug\巴那那的抽籤程式.exe.config
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\bin\Debug\巴那那的抽籤程式.exe
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\bin\Debug\巴那那的抽籤程式.pdb
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.csprojAssemblyReference.cache
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.Form1.resources
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.Properties.Resources.resources
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.csproj.GenerateResource.cache
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.csproj.CoreCompileInputs.cache
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.exe
+C:\Users\linbanana\Google 雲端硬碟\巴那那的抽籤程式\專案檔\巴那那的抽籤程式\巴那那的抽籤程式\obj\Debug\巴那那的抽籤程式.pdb
