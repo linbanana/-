@@ -153,7 +153,7 @@ namespace 巴那那的抽籤程式
                 return;
             }
             //一般抽籤
-            if (alist != null && alist.Count == 0)
+            if (alist != null && alist.Count != 0)
             {
                 try
                 {
