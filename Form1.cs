@@ -168,7 +168,7 @@ namespace 巴那那的抽籤程式
                     });
                     if (this.alist.Count == 0)
                     {
-                        MessageBox.Show("已無數字");
+                        MessageBox.Show("已無數字","提示");
                         alist.Clear();
                         alist = null;
                         textBox1.Clear();
@@ -190,8 +190,7 @@ namespace 巴那那的抽籤程式
                
                 try
                  {
-
-
+                                        
 					label5.Text = "我抽我抽我抽抽抽";
 					int index = r.Next(0, ax.Length);
 					output.Text = Convert.ToString(ax[index]);
@@ -202,7 +201,7 @@ namespace 巴那那的抽籤程式
                                             });
                     if (ax.Length == 0)
                      {
-						MessageBox.Show("已無資料");
+						MessageBox.Show("已無資料","提示");
 
 						richTextBox1.Clear();
 						ax = null;
@@ -236,7 +235,7 @@ namespace 巴那那的抽籤程式
             
             if (textBox1.Enabled == false & richTextBox1.Enabled == false)
             {
-                MessageBox.Show("請先選擇抽籤方式");
+                MessageBox.Show("請先選擇抽籤方式","Error");
                 return;
             }
             try
@@ -244,7 +243,7 @@ namespace 巴那那的抽籤程式
                 x = Convert.ToInt32(textBox1.Text);
                 if (x <= 0)
                 {
-                    MessageBox.Show("數字不能為0");
+                    MessageBox.Show("數字不能為0","Error");
                     textBox1.Clear();
                     return;
                 }
@@ -252,20 +251,22 @@ namespace 巴那那的抽籤程式
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-            if (alist==null)
-            {
+                MessageBox.Show(ex.Message,"Error");
+                if (alist==null)
+                {
                    MessageBox.Show("請重新輸入數字");
-                    textBox1.Clear();                    
+                   textBox1.Clear();                    
                    textBox1.Focus();
-            }
+                }
 
             }
+
             this.alist = new List<int>();
             for (int i = 1; i <= this.x; i++)
             {
                 this.alist.Add(i);
             }
+            MessageBox.Show("快去開始抽籤吧", "提示");            
         }
 
         private void Enter2_Click(object sender, EventArgs e)
@@ -279,13 +280,7 @@ namespace 巴那那的抽籤程式
             //一行取一個按Enter一行
             string str = richTextBox1.Text.Trim().Replace(System.Environment.NewLine, "\n");
             ax = str.Split('\n');
-            
-            
-
-
-
-
-
+            MessageBox.Show("快去開始抽籤吧","提示");
         }
 
         private void output_Click(object sender, EventArgs e)
