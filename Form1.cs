@@ -31,8 +31,6 @@ namespace 巴那那的抽籤程式
                 MessageBox.Show("程式重複執行", "錯誤");
                 Environment.Exit(2);
             }
-            label2.Text = Convert.ToString(DateTime.Now);
-
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -73,14 +71,9 @@ namespace 巴那那的抽籤程式
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
-            label2.Text = Convert.ToString(DateTime.Now);
+            label6.Text = Convert.ToString(DateTime.Now) + " 巴那那  ©  2016 - " + DateTime.Now.ToString("yyyy");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -202,14 +195,6 @@ namespace 巴那那的抽籤程式
                     if (ax.Length == 0)
                      {
 						MessageBox.Show("已無資料","提示");
-
-						richTextBox1.Clear();
-						ax = null;
-						label5.Text = "";
-						label4.Text = "";
-						output.Text = "";
-						MessageBox.Show("欄位已全清空", "提示");
-						richTextBox1.Focus();
 				     }
 
 
@@ -219,15 +204,7 @@ namespace 巴那那的抽籤程式
                    MessageBox.Show("請輸入資料後按確認", "Error");
                  }
                 
-            }
-            
-
-            
-            
-
-
-
-
+            }        
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -300,7 +277,18 @@ namespace 巴那那的抽籤程式
 
 		private void Label6_Click(object sender, EventArgs e)
 		{
+           
+        }
 
-		}
-	}
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            ax = null;
+            label5.Text = "";
+            label4.Text = "";
+            output.Text = "";
+            richTextBox1.Clear();
+            MessageBox.Show("欄位已全清空", "提示");
+            richTextBox1.Focus();
+        }
+    }
 }
