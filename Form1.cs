@@ -50,22 +50,6 @@ namespace 巴那那的抽籤程式
 
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked)
-            {
-				//label1.Text = "本機電腦IP：" + this.IPHost.AddressList[1].ToString();
-				MessageBox.Show("此功能暫時關閉", "Error");
-			}
-            else
-            {
-				//label1.Text = "";
-				MessageBox.Show("此功能暫時關閉", "Error");
-			}
-                
-            
-        }
-
         private void toolStripContainer1_TopToolStripPanel_Click(object sender, EventArgs e)
         {
 
@@ -129,8 +113,7 @@ namespace 巴那那的抽籤程式
             if (lineLength > 0)
             {
                 label5.Text = "共有" + Convert.ToString(lineLength-1) + "筆資料";
-            } 
-            
+            }             
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -224,7 +207,16 @@ namespace 巴那那的抽籤程式
                     textBox1.Clear();
                     return;
                 }
-
+                else
+                {
+                    this.alist = new List<int>();
+                    for (int i = 1; i <= this.x; i++)
+                    {
+                        this.alist.Add(i);
+                    }
+                    MessageBox.Show("快去開始抽籤吧", "提示");
+                    start.Focus();
+                }
             }
             catch (Exception ex)
             {
@@ -235,15 +227,7 @@ namespace 巴那那的抽籤程式
                    textBox1.Clear();                    
                    textBox1.Focus();
                 }
-
-            }
-
-            this.alist = new List<int>();
-            for (int i = 1; i <= this.x; i++)
-            {
-                this.alist.Add(i);
-            }
-            MessageBox.Show("快去開始抽籤吧", "提示");            
+            }         
         }
 
         private void Enter2_Click(object sender, EventArgs e)
@@ -258,6 +242,7 @@ namespace 巴那那的抽籤程式
             string str = richTextBox1.Text.Trim().Replace(System.Environment.NewLine, "\n");
             ax = str.Split('\n');
             MessageBox.Show("快去開始抽籤吧","提示");
+            start.Focus();
         }
 
         private void output_Click(object sender, EventArgs e)
@@ -282,13 +267,20 @@ namespace 巴那那的抽籤程式
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            ax = null;
-            label5.Text = "";
-            label4.Text = "";
-            output.Text = "";
-            richTextBox1.Clear();
-            MessageBox.Show("欄位已全清空", "提示");
-            richTextBox1.Focus();
+            Int32 lineLength = richTextBox1.Lines.Length;
+            if (lineLength-1 > 0) { 
+                ax = null;
+                label5.Text = "";
+                label4.Text = "";
+                output.Text = "";
+                richTextBox1.Clear();
+                MessageBox.Show("欄位已全清空", "提示");
+                richTextBox1.Focus();
+            }
+            else
+            {
+                MessageBox.Show("自訂欄位無資料", "提示");
+            }
         }
     }
 }
